@@ -1,0 +1,167 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+body header h2 {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 1em;
+	font-family: "Raleway",sans-serif;
+}body main {
+    background-color: #E0FFFF;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0em;
+}.row .col-lg-offset-3.col-lg-6 p {
+    margin: 0em;
+    font-size: 1.25em;
+}
+.container-fluid .row .col-lg-offset-2.col-lg-9 {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0.3em 0.3em 1em;
+    border-radius: 3em;
+    padding: 3em;
+    box-shadow: 0.3em 0.3em 1em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.container-fluid .row .col-lg-3.col-lg-offset-5 {
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.col-lg-9 p {
+    padding: 2em;
+    font-size: large;
+}
+.campus-study {
+    margin-bottom: 3em;
+    text-align: left;
+}
+.contents  {
+    padding: 3em;
+    border-radius: 3em;
+    background-color: #FFFFFF;
+    margin-bottom: 3em;
+}
+.bold {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-left: 0px;
+}
+.campus-study-image      {
+    margin-left: 0px;
+    width: 32em;
+    height: 20em;
+    border: thin solid #000000;
+}
+.describe {
+    margin-top: 1em;
+    font-size: medium;
+    text-align: left;
+}
+.nav.navbar-nav.navbar-right li {
+    margin-top: 0.1em;
+    margin-right: 0.1em;
+    margin-left: 0.1em;
+    margin-bottom: 0.1em;
+    border: thin solid #B2B2B2;
+}
+#topFixedNavbar1 .nav.navbar-nav p {
+    font-family: "Raleway",sans-serif;
+    font-size: 2em;
+    margin: 0.1em;
+    color: #000000;
+}
+.self {
+    margin: 3em;
+    text-align: center;
+}
+.row .col-lg-offset-5.col-lg-2 {
+    margin-bottom: 3em;
+    background-color: #FFFFFF;
+    border-radius: 3em;
+    border: thin solid #000000;
+}
+.hover:hover{
+	opacity: 0.3;
+}
+.self-study-image {
+    margin-left: 0px;
+    width: 30em;
+    height: 20em;
+    border: thin solid #000000;
+}
+.col-lg-4.col-lg-offset-1 {
+    margin-right: 0px;
+}
+
+
+
+@media (min-width: 1500px){
+ .container-fluid .row .col-lg-offset-2.col-lg-9{
+	 width:1000px;
+	}
+}
+@media (min-width: 1588px){
+	.container-fluid .row .col-lg-offset-2.col-lg-9{
+		margin-left:500px;
+	}
+}
+@media (min-width: 1500px){
+header h2 {
+    font-size: 10em;
+}
+
+}
+
+@media (max-width:992px){
+header h2 {
+    font-size: 9em;
+}
+
+}
+@media (max-width:1499px){
+header h2 {
+    font-size: 6em;
+}
+}
+
+@media (max-width: 766px){
+header h2 {
+    font-size: 4em;
+}
+
+}
+
+@media (max-width:500px){
+header h2 {
+    font-size: 3em;
+
+}
+body {
+    width: 500px;
+}
+.col-lg-4 {
+    border-radius: 0px;
+}
+.container-fluid .row .col-lg-offset-2.col-lg-9 {
+    border-radius: 0px;
+}
+.col-lg-4.col-lg-offset-1 {
+    margin: 0px;
+}
+.self {
+    margin: 0px;
+}
+
+
+
+
+
+
+
+}

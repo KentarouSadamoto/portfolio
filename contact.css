@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+body header h2 {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 1em;
+}
+
+body header {
+    font-family: "Raleway",sans-serif;
+}
+body main {
+    background-color: #E0FFFF;
+    font-size: large;
+}
+.bold {
+    font-weight: bold;
+    font-size: large;
+}
+body main {
+    background-color: #E0FFFF;
+    padding: 3em;
+}.row .col-lg-12 {
+    margin: 0;
+    padding: 2em;
+    border-radius: 3em;
+    background-color: #FFFFFF;
+    width: 35em;
+}
+form .form-group #inquiry {
+    height: 15em;
+}
+form .btn.btn-default {
+    margin: 2em;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: thin solid #000000;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.nav.navbar-nav.navbar-right li {
+    margin-top: 0.1em;
+    margin-right: 0.1em;
+    margin-left: 0.1em;
+    margin-bottom: 0.1em;
+    border: thin solid #B2B2B2;
+}
+#topFixedNavbar1 .nav.navbar-nav p {
+    font-family: "Raleway",sans-serif;
+    font-size: 2em;
+    margin: 0.1em;
+    color: #000000;
+}
+.hover:hover{
+	opacity: 0.3;
+}
+
+@media (max-width: 500px){
+	
+	body{
+		width: 500px;
+	}
+}
+
+@media (min-width: 1500px){
+header h2 {
+    font-size: 10em;
+}
+
+}
+
+@media (max-width:992px){
+header h2 {
+    font-size: 9em;
+}
+
+}
+
+@media (max-width:1499px){
+header h2 {
+    font-size: 6em;
+}
+}
+
+@media (max-width: 766px){
+header h2 {
+    font-size: 4em;
+}
+
+}
+
+@media (max-width:500px){
+header h2 {
+    font-size: 3em;
+
+}
+
+}

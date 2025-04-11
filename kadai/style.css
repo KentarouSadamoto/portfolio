@@ -1,0 +1,144 @@
+/*top css*/
+#top{
+    color:aliceblue;
+    font-family:serif;
+    background-image:url(image/black_00087.jpg);
+    width:1900px;
+    height:500px;
+}
+h1{
+    font-size:50px;
+    padding:10px;
+}
+/*nav css*/
+nav{
+    padding-left:20px;
+    padding-right:10px;
+    padding-bottom:50px;
+}
+nav ul{list-style-type:none;
+    width:2000px;
+}
+nav li{
+    width:300px;
+    height:30px;
+    float:left;
+    
+}
+nav a{
+    display:block;
+    line-height:60px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    background-color:black;
+}
+nav a:hover{
+    color:aquamarine;
+    font-weight:bold;
+    background-color:gray;
+}
+
+
+/*information css*/
+h2{ 
+    display:block;
+    line-height:60px;
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    background-image:url(image/stripe.jpg);
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+}
+table tr {
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+}
+table tr:nth-child(even){
+  background-color: #eee;
+}
+table th,
+table td {
+  padding: .35em 1em;
+}
+table thead th {
+    font-size: .85em;
+    padding: 1em;
+}
+table thead tr{
+  background-color: gray;
+  color:#fff;
+}
+table tbody th {
+  text-align: left;
+  font-size: .8em;
+}
+.txt{
+   text-align: left;
+   font-size: .75em;
+}
+.price{
+  text-align: right;
+  color: #FF7043;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+    width:100%
+  }
+  table th{
+    background-color: #fd6767;
+    display: block;
+    border-right: none;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+    border: 1px solid #fd6767;
+  }
+  table td {
+    border-bottom: 1px dotted #bbb;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+    position: relative;
+    padding: 1.5em 1em 1.5em 4em;
+    border-right: none;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    color: #000;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  table tbody th {
+    color: #fff;
+    padding: 1em
+}
+  table tr:nth-child(even){
+  background-color: #fff;
+}
+    #fx{
+        padding-left:100px;
+    }
