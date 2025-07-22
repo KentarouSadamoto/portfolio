@@ -194,3 +194,13 @@ tr .bold {
     font-size: 1.25em;
   }
 }
+@media (min-width: 1500px) {
+  .programming,
+  .certification {
+    width: 90%;
+    margin: 5em auto;
+  }
+}
+* {
+  box-sizing: border-box;
+}
