@@ -157,11 +157,14 @@ body {
 .self {
     margin: 0px;
 }
+}
 
-
-
-
-
-
-
+@media (min-width: 1500px) {
+  .contents {
+    width: 90%;
+    margin: 5em auto;
+  }
+}
+* {
+  box-sizing: border-box;
 }

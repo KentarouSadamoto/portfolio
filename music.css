@@ -126,3 +126,12 @@ body main {
   padding-right: 0em;
 }
 }
+@media (min-width: 1500px) {
+  .contents {
+    width: 90%;
+    margin: 5em auto;
+  }
+}
+* {
+  box-sizing: border-box;
+}
